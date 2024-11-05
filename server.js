@@ -12,6 +12,8 @@ const port = 3000;
 const app = next({dev, hostname, port});
 const handle = app.getRequestHandler();
 
+const cloudinary = require('cloudinary').v2;
+
 app.prepare().then(() => {
   const server = express();
   server.use(cors())
@@ -25,6 +27,13 @@ app.prepare().then(() => {
 
   server.listen(port, async (err) => {
     _init()
+
+    cloudinary.config({
+      cloud_name: 'dbjfqrq8y',
+      api_key: '743397352764336',
+      api_secret: 'mDoPMUW3KHP7nyrNBe9n0HsQGs0' // Click 'View API Keys' above to copy your API secret
+    })
+
     if (err) throw err;
     console.log(`> Ready on http://${hostname}:${port}`);
   });
