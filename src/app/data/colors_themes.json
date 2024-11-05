@@ -1,0 +1,50 @@
+[
+    {
+      "name": "#ffffff",
+      "name_semi": "#000000",
+      "text": "#000",
+      "text_semi": "#ffffff",
+      "image": "/frames/compass_000000.png",
+      "image_semi": "/frames/compass_FFFFFF.png"
+    },
+    {
+      "name": "#000000",
+      "name_semi": "#ffffff",
+      "text": "#fff",
+      "text_semi": "#000000",
+      "image": "/frames/compass_FFFFFF.png",
+      "image_semi": "/frames/compass_000000.png"
+    },
+    {
+      "name": "#265486",
+      "name_semi": "#ffffff",
+      "text": "#fff",
+      "text_semi": "#265486",
+      "image": "/frames/compass_FFFFFF.png",
+      "image_semi": "/frames/compass_265486.png"
+    },
+    {
+      "name": "#033063",
+      "name_semi": "#ffffff",
+      "text": "#fff",
+      "text_semi": "#033063",
+      "image": "/frames/compass_FFFFFF.png",
+      "image_semi": "/frames/compass_033063.png"
+    },
+    {
+      "name": "#2E3863",
+      "name_semi": "#ffffff",
+      "text": "#fff",
+      "text_semi": "#2E3863",
+      "image": "/frames/compass_FFFFFF.png",
+      "image_semi": "/frames/compass_2E3863.png"
+    },
+    {
+      "name": "#89092E",
+      "name_semi": "#ffffff",
+      "text": "#fff",
+      "text_semi": "#89092E",
+      "image": "/frames/compass_FFFFFF.png",
+      "image_semi": "/frames/compass_89092E.png"
+    }
+  ]
